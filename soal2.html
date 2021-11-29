@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Author" content="2072043 nurbagussajiwo">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let bil = prompt("Bilangan")
+    
+        let pembagi = 0;
+            for(let i=1; i <= bil; i++){
+                if(bil%i == 0){
+                pembagi = pembagi + 1
+                }
+            }
+            if(pembagi == 2){
+                document.write("bilangan "+bil+" adalah bilangan prima")
+            }else{
+                document.write("bilangan "+bil+" bukan prima")
+            }
+            
+    </script>
+</body>
+</html>

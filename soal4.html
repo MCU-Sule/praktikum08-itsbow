@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Author" content="2072043 nurbagussajiwo">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        #tab1{
+            border-collapse: collapse;
+            width: 200px;
+        }
+    </style>
+    <table id="tab1">
+        <script>
+            let bar = prompt("masukan jumlah baris")
+            let kol = prompt("masukan jumlah kolom")
+            let war1 = prompt("masukan warna 1 ")
+            let war2 = prompt("masukan warna 2 ")
+
+            let k = 1
+            for (i = 1; i <= bar; i++){
+                
+                for (j = 1; j <= kol; j++){
+                    document.write("<td style='background-color: #"+war1+";'>"+k+"</td>")
+                    k = k + 1
+                }
+                document.write("<tr></tr>")
+            }
+           
+        </script>
+    </table>
+</body>
+</html>
